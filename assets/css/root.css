@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Clicker Script',
+cursive;
+font-family: 'Playfair Display',
+serif; */
+
+:root {
+    --ff-cliker: "Clicker Script", cursive;
+    --ff-playfair: "Playfair Display", serif;
+
+    --fs-xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-md: 20px;
+    --fs-2md: 22px;
+    --fs-lg: 26px;
+    --fs-2lg: 28px;
+    --fs-3lg: 32px;
+    --fs-xl: 35px;
+    --fs-2xl: 54px;
+    --fs-3xl: 220px;
+
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+    --extraBold: 800;
+    --extraLarge: 900;
+
+    --heading-color: #603809;
+    --paragraph-color: #707070;
+    --background-color: #fffefc;
+    --black-color: #1e1e1e;
+    --white-color: #ffffff;
+
+}
+
+.background_color {
+    color: var(--background-color);
+}
+
+.heading_color {
+    color: var(--heading-color);
+}
+
+.paragraph_color {
+    color: var(--paragraph-color);
+}
+
+.black_color {
+    color: var(--black-color);
+}
+
+.white_color {
+    color: var(--white-color);
+}
+
+.ff_cliker {
+    font-family: var(--ff-cliker) !important;
+}
+
+.ff_playfair {
+    font-family: var(--ff-playfair) !important;
+}
+
+.fs_14 {
+    font-size: var(--fs-xs) !important;
+}
+
+.fs_16 {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs_18 {
+    font-size: var(--fs-2sm) !important;
+}
+
+.fs_20 {
+    font-size: var(--fs-md) !important;
+}
+
+.fs_22 {
+    font-size: var(--fs-2md) !important;
+}
+
+.fs_26 {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs_28 {
+    font-size: var(--fs-2lg);
+}
+
+.fs_32 {
+    font-size: var(--fs-3lg);
+}
+
+.fs_35 {
+    font-size: var(--fs-xl);
+}
+
+.fs_54 {
+    font-size: var(--fs-2xl);
+}
+
+.fs_220 {
+    font-size: var(--fs-3xl);
+}
+
+.fw_400 {
+    font-weight: var(--regular) !important;
+}
+
+.fw_500 {
+    font-weight: var(--medium) !important;
+}
+
+.fw_600 {
+    font-weight: var(--semiBold) !important;
+}
+
+.fw_700 {
+    font-weight: var(--bold) !important;
+}
+
+.fw_800 {
+    font-weight: var(--extraBold) !important;
+}
+
+.fw_900 {
+    font-weight: var(--extraLarge) !important;
+}

@@ -1,0 +1,126 @@
+.background_img_herosection {
+    background-image: url("../images/png/Background-img-herosection.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button_1 {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 24px;
+    background: #F9C06A;
+    padding: 14px 27px;
+    border: none;
+}
+
+.button_1:hover {
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    transition: 0.6s ease-in-out all;
+}
+
+.button_2 {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 24px;
+    background: #F9C06A;
+    padding: 14px 26px;
+    border: none;
+}
+
+.button_2:hover {
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    transition: 0.6s ease-in-out all;
+}
+
+.gap_60 {
+    gap: 60px;
+}
+
+.d_none {
+    display: none;
+}
+
+.background_img_2 {
+    background-image: url("../images/png/Background_img_2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:991.98px) {
+    label[for="iconBox"] {
+        width: 30px;
+        height: 22px;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label[for="iconBox"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: #F9C06A;
+        transition: all ease-in-out;
+        border-radius: 10px;
+        z-index: 100 !important;
+    }
+
+    .lg_screen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        pointer-events: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.4s linear;
+        background-color: #603809;
+        gap: 10px;
+        z-index: 2;
+    }
+
+    input[type="checkbox"]:checked~div.lg_screen {
+        opacity: 1;
+        pointer-events: all;
+        left: 0;
+    }
+
+    input[type="checkbox"]:checked~.cente .to {
+        transform: rotate(45deg);
+        transform-origin: 3px;
+    }
+
+    input[type="checkbox"]:checked~.cente .mi {
+        transform: scaleY(0);
+    }
+
+    input[type="checkbox"]:checked~.cente .bo {
+        transform: rotate(-45deg);
+        transform-origin: 1px;
+    }
+
+    .gap_60 {
+        gap: 30px;
+    }
+
+    .display_none {
+        display: none;
+    }
+
+
+}
